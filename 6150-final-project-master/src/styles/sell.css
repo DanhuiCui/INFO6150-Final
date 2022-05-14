@@ -1,0 +1,41 @@
+.ds{
+    width: 520px;
+    height: auto;
+    border: solid gray;
+    background: #B4E1F9;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 1000px;
+    background: #B4E1F9;
+}
+label{
+    font-size: larger;
+    width: 300px;
+    height: 50px;
+    
+    
+}
+
+input{
+    border-radius: 6px;
+    height: 50px;
+    width: 300px;
+    
+    
+    
+}
+
+.backbtn{
+    text-align: left;
+    vertical-align:text-top;
+}
+button{
+    
+    margin-left: auto;
+    margin-right: auto;
+}

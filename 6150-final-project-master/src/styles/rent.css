@@ -1,0 +1,92 @@
+.dr{
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 2px solid #136EFA;
+    margin-left: 30px;
+    background: #B4E1F9;
+}
+#bt2{
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #136EFA;
+    border-radius: 6px;
+}
+#bt2:focus{
+    background-color: red;
+    color: white;
+}
+.mapdiv{
+    width: 50vw;
+    height: 100vh;
+}
+.heart {
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+    background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    -webkit-transition: background-position 1s steps(28);
+    transition: background-position 1s steps(28);
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+}
+.heart.is-active {
+    
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    background-position: -2800px 0;
+}
+.heartdiv{
+    margin-top: 30px;
+    padding-top: 20px;
+    width: auto;
+    height: 100px;
+    
+}
+.btnGroup{
+    
+    float: left;
+    width: 100px;
+    
+    
+    border-radius: 5px;
+    font-size: large;
+    
+}
+.btnGroup:hover{
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 0 6px #999;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all .5s ease-out;
+    transition: all .2s ease-out;
+    
+    color: white;
+}
+#bt2:hover{
+background-color: #136EFA;
+}
+#bt3:hover{
+    background-color: #136EFA;
+    color: white;
+}
+#bt3{
+    margin-top: 15px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #136EFA;
+    border-radius: 6px;
+}
+@media screen and (max-width: 750px) {
+    .mapdiv{
+        width: 100vw;
+        height: 100vh;
+    }
+}
